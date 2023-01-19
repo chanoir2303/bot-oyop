@@ -47,6 +47,7 @@ async def help_commands(ctx):
     !defender to display list of defenders
     !polyvalent to display list of polyvalents
     !support to display list of supports
+    !wizz
     !author
     """)
 
@@ -116,5 +117,18 @@ async def search_pokemon_stats(ctx, name):
             x.append(i.stats[0])
     await ctx.send(x)
 
+# spam salty peeps
+@bot.command(name="wizz")
+@commands.cooldown(1, 600, commands.BucketType.user) # nbr times, nbr seconds
+async def salty(ctx, name):
+    print(name)
+    for i in range(0, 15):
+        if name == "<@919292102456803378>":
+            break
+        else:
+            await ctx.send(name)
+
+
+# TODO: MVP command
 
 bot.run(os.getenv("TOKEN"))
