@@ -18,7 +18,7 @@ words = ['bagarre', 'unite', 'go']
 
 @bot.event
 async def on_ready():
-    print("oyop prêt pour bagarre.")
+    print("oyop ready.")
 
 
 @bot.event
