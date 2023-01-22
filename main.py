@@ -13,7 +13,7 @@ default_intents.members = True
 bot = commands.Bot(command_prefix="!", intents=default_intents)
 
 # list of word for bot event
-words = ['bagarre', 'unite', 'go']
+words = ['unite?', 'go bagarre']
 
 
 @bot.event
@@ -123,7 +123,7 @@ async def search_pokemon_stats(ctx, name):
 async def salty(ctx, name):
     print(name)
     for i in range(0, 15):
-        if name == "<WHITELIST>":
+        if name == "<@919292102456803378>":
             break
         else:
             await ctx.send(name)
