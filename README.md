@@ -12,7 +12,7 @@ Select the app newly created and add a bot
 <img width="329" alt="Capture d’écran 2023-01-22 à 19 36 58" src="https://user-images.githubusercontent.com/80722034/213936454-369f2480-9c34-4efb-9339-cf0816b0136d.png">
 
 ### Add permissions
-Configure bot whether different permissions than **oyop** needed
+Configure bot whether differents permissions than **oyop** needed (**oyop** use Administrator permission)
 
 <img width="927" alt="Capture d’écran 2023-01-22 à 19 40 34" src="https://user-images.githubusercontent.com/80722034/213936690-338fa92f-10e6-41f9-a632-55fcd48a90cb.png">
 
